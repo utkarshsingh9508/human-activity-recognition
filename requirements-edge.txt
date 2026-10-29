@@ -1,0 +1,6 @@
+# Minimal install for running the exported ONNX model on an edge device
+# (Raspberry Pi 4/5, Jetson, low-end laptop). No PyTorch needed.
+mediapipe==0.10.14
+opencv-python>=4.8
+numpy>=1.24,<2.0
+onnxruntime>=1.17
